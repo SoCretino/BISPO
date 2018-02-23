@@ -1,4 +1,4 @@
-## BISPO -- Backline rental service website
+## BISPO -- Backline Rental Service Website
 
 Developed a complete site for backline items listing, such as mixing consoles, guitars, drums, etc.
 
