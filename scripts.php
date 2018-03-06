@@ -1,3 +1,4 @@
+		<div class="gs" style="display:none;position:fixed;bottom:0;right:0; margin: 5px;"><a href="http://gonzalospota.com/" target="_blank" style="color:white!important;">GS</a></div>
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<script src="js/foundation.min.js"></script>
 		<script src="js/jquery.validate.min.js" defer></script>
@@ -5,6 +6,13 @@
 		<script>
 			$(document).foundation();
 			$(document).ready(function() {
+				$(window).scroll(function() {
+					if($(window).scrollTop() + $(window).height() == $(document).height()) {
+						$(".gs").css("display", "block");
+					}
+					else
+						$(".gs").css("display", "none");
+				});
 				$('.equipos').click(function() {
 					var equiposToggle = $('.header-submenu').is(':visible'),
 						equiposSlide = equiposToggle ? 'slideUp' : 'slideDown';
