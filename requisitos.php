@@ -2,6 +2,9 @@
 <html lang="es-AR">
 	<head prefix="og: http://ogp.me/ns#" itemscope="itemscope" itemtype="http://schema.org/WebPage">
 		<?php include('meta-css.php'); ?>
+		<meta name="description" content="Lea atentamente los requisitos para no comprometernos ya que NO SE ENTREGA ningún equipo si no se cumple con todos los requisitos">
+		<meta itemprop="description" content="Lea atentamente los requisitos para no comprometernos ya que NO SE ENTREGA ningún equipo si no se cumple con todos los requisitos">
+		<title>Requisitos | BISPO</title>
 	</head>
 	<body>
 		<?php include('header.php'); ?>

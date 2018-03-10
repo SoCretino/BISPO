@@ -2,6 +2,9 @@
 <html lang="es-AR">
 	<head prefix="og: http://ogp.me/ns#" itemscope="itemscope" itemtype="http://schema.org/WebPage">
 		<?php include('meta-css.php'); ?>
+		<meta name="description" content="Somos una empresa dedicada al alquiler de instrumentos musicales, equipos de amplificación y sonido.">
+		<meta itemprop="description" content="Somos una empresa dedicada al alquiler de instrumentos musicales, equipos de amplificación y sonido.">
+		<title>Acerca de nosotros | BISPO</title>
 	</head>
 	<body>
 		<?php include('header.php'); ?>

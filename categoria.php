@@ -1,7 +1,36 @@
 <!DOCTYPE html>
 <html lang="es-AR" itemscope="itemscope" itemtype="http://schema.org/WebPage">
 	<head prefix="og: http://ogp.me/ns#">
-		<?php include('meta-css.php'); ?>
+		<?php include('meta-css.php'); 
+		switch ($_GET['category_id']) {
+				case 1: 
+					$categoryTitle = "Baterias | BISPO";
+					$categoryDescription = "Alquiler de baterías, platillos, banquetas, fierros en Zona Oeste. Contamos con marcas como Pearl, Sabian y Paiste.";
+					break;
+				case 2: 
+					$categoryTitle = "Guitarras | BISPO";
+					$categoryDescription = "Alquiler de guitarras, plugs y correas en Zona Oeste. Contamos con marcas como Gibson, Fender, Epiphone y Squier.";
+					break;
+				case 3: 
+					$categoryTitle = "Bajos | BISPO";
+					$categoryDescription = "Alquiler de bajos, plugs y correas en Zona Oeste.";
+					break;
+				case 4: 
+					$categoryTitle = "Amplificadores | BISPO";
+					$categoryDescription = "Alquiler de amplificadores, cajas y cabezales en Zona Oeste. Contamos con marcas como Fender, Marshall, Ampeg, Vox y Peavey.";
+					break;
+				case 5: 
+					$categoryTitle = "Sonido | BISPO";
+					$categoryDescription = "Alquiler de sonido, consolas potenciadas, micrófonos, cajas de voz, cables plug/canon, atriles y pies en Zona Oeste. Contamos con marcas como Yamaha, Samson, Shure y Phonic ";
+					break;
+				default: 
+					$categoryTitle = "Alquiler de Backline y Sonido | BISPO";
+					$categoryDescription = "Alquiler de Backline, Instrumentos y Sonido en Zona Oeste";
+			}
+		?>
+		<meta name="description" content="<?php echo $categoryDescription; ?>">
+		<meta itemprop="description" content="<?php echo $categoryDescription; ?>">
+		<title><?php echo $categoryTitle; ?></title>
 	</head>
 	<body>
 		<?php include('header.php'); ?>

@@ -17,6 +17,7 @@
 			while ($rows = $result->fetch_array(MYSQLI_ASSOC)):
 				$name = $rows['name'];
 				$price = $rows['price'];
+				$description = $rows['description'];
 			endwhile;
 			$result->free();
 			$mysqli->close();
@@ -24,8 +25,8 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-		<meta name="description" content="Alquiler de Backline, Instrumentos y Sonido en Zona Oeste, Buenos Aires, Argentina. Contamos con baterías, amplificadores, guitarras, bajos, consolas potenciadas, micrófonos y mucho más">
-		<meta itemprop="description" content="Alquiler de Backline, Instrumentos y Sonido en Zona Oeste, Buenos Aires, Argentina. Contamos con baterías, amplificadores, guitarras, bajos, consolas potenciadas, micrófonos y mucho más">
+		<meta name="description" content="<?php echo $description ?>">
+		<meta itemprop="description" content="<?php echo $description ?>">
 		<meta itemprop="name" content="BISPO">
 		<meta itemprop="image" content="http://bispo.info/img/logo_social.png">
 		<meta property="og:type" content="website">
@@ -35,7 +36,7 @@
 		<meta property="og:locale" content="es_LA">
 		<meta property="og:url" content="http://bispo.info/item.php?item_id=<?php echo $_GET['item_id']?>">
 		<meta property="og:image" content="http://bispo.info/img/item/<?php echo $_GET['item_id']?>.jpg">
-		<title>Alquiler de Backline y Sonido | BISPO</title>
+		<title><?php echo $name ?> | BISPO</title>
 		<link rel="canonical" itemprop="url" href="http://bispo.info/"/>
 		<link rel="stylesheet" href="css/normalize.min.css" type="text/css"/>
 		<link rel="stylesheet" href="css/foundation.min.css" type="text/css"/>

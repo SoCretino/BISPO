@@ -2,6 +2,9 @@
 <html lang="es-AR">
 	<head prefix="og: http://ogp.me/ns#" itemscope="itemscope" itemtype="http://schema.org/WebPage">
 		<?php include('meta-css.php'); ?>
+		<title>Eventos | BISPO</title>
+		<meta name="description" content="Conocé donde se ha utilizado nuestros equipos!">
+		<meta itemprop="description" content="Conocé donde se ha utilizado nuestros equipos!">
 		<link rel="stylesheet" href="css/nanogallery2.min.css" type="text/css"/>
 	</head>
 	<body>

@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="es-AR" itemscope="itemscope" itemtype="http://schema.org/WebPage">
 	<head prefix="og: http://ogp.me/ns#">
+		<meta name="description" content="Alquiler de Backline, Instrumentos y Sonido en Zona Oeste, Buenos Aires, Argentina. Contamos con baterías, amplificadores, guitarras, bajos, consolas potenciadas, micrófonos y mucho más">
+		<meta itemprop="description" content="Alquiler de Backline, Instrumentos y Sonido en Zona Oeste, Buenos Aires, Argentina. Contamos con baterías, amplificadores, guitarras, bajos, consolas potenciadas, micrófonos y mucho más">
 		<?php include('meta-css.php'); ?>
+		<title>Alquiler de Backline y Sonido | BISPO</title>
 	</head>
 	<body>
 		<?php include('header.php'); ?>
