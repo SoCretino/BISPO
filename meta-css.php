@@ -34,32 +34,27 @@
 		<script type="application/ld+json">
 			{
 				"@context": "http://schema.org",
-				"@type": "Service",
-				"serviceType": "Alquiler de Backline y Sonido",
-				"provider": {
-					"@type": "LocalBusiness",
-					"url": "http://bispo.info/",
-					"name": "BISPO",
-					"logo": "http://bispo.info/img/logo_social.png",
-					"image": "http://bispo.info/img/slider5.jpg",
-					"email": ["bispoargentina@gmail.com"],
-					"telephone": "+541121149417",
-					"openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 15:00-23:00",
-					"address": {
-						"@type": "PostalAddress",
-						"addressLocality": "Villa Sarmiento, Buenos Aires",
-						"postalCode": "B1707CLA",
-						"streetAddress": "Julián Portela 683"
-					},
-					"sameAs": [
-						"https://www.facebook.com/Bispo-Argentina-1626848107358742/",
-						"https://www.instagram.com/bispoargentina/",
-						"https://www.youtube.com/channel/UCXQ2pEPIbK-7Edz5Op5W8cg"
-					]
+				"@type": "LocalBusiness",
+				"@id": "http://bispo.info/",
+				"url": "http://bispo.info/",
+				"name": "BISPO",
+				"description": "Alquiler de Backline y Sonido",
+				"logo": "http://bispo.info/img/logo_social.png",
+				"image": "http://bispo.info/img/slider5.jpg",
+				"email": ["bispoargentina@gmail.com"],
+				"telephone": "+541121149417",
+				"openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 15:00-23:00",
+				"priceRange": "$100 - $500",
+				"address": {
+					"@type": "PostalAddress",
+					"addressLocality": "Villa Sarmiento, Buenos Aires",
+					"postalCode": "B1707CLA",
+					"streetAddress": "Julián Portela 683"
 				},
-				"areaServed": {
-					"@type": "Country",
-					"name": "Argentina"
-				}
+				"sameAs": [
+					"https://www.facebook.com/Bispo-Argentina-1626848107358742/",
+					"https://www.instagram.com/bispoargentina/",
+					"https://www.youtube.com/channel/UCXQ2pEPIbK-7Edz5Op5W8cg"
+				]
 			}
 		</script>
